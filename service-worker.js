@@ -1,10 +1,9 @@
-var cacheName = 'cache-name-1111'
+var cacheName = 'cache-name-1'
 var cacheFiles = [
-  './',
-  './index.html',
-  'index.js',
-  'sw-lifecycle.png',
-  'index.css'
+  'index.html',
+  'js/index.js',
+  'css/materialize.css',
+  'css/style.css'
 ]
 
 self.addEventListener('install', function (event) {

@@ -8,7 +8,7 @@
   }
 
   function installServiceWorker() {
-    navigator.serviceWorker.register('./service-worker.js')
+    navigator.serviceWorker.register('../service-worker.js')
 
     navigator.serviceWorker.oncontrollerchange = onControllerChange
   }
