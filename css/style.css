@@ -8,3 +8,7 @@ body {
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+.json {
+  word-wrap: break-word;
+}
